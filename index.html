@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thoroughbred Cigars</title>
+    <style>
+        /* Basic Reset and Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: serif;
+            background-color: #1C1C1C; /* Soft black background */
+            color: #DAA520; /* Deep gold accent color */
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #1C1C1C; /* Stays pure black for header background */
+            padding: 20px 0;
+            border-bottom: #DAA520 3px solid;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header .logo-container {
+            display: flex;
+            align-items: center;
+            background-color: #1C1C1C;
+        }
+        header .logo-container img {
+            height: 250px; /* Increased image height to 250px here */
+            width: auto; /* Maintain aspect ratio */
+            margin-right: 15px;
+            background-color: #1C1C1C;
+        }
+        header h1 {
+            color: #DAA520; /* White text for contrast against black header */
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 24px;
+        }
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        nav a {
+            color: #DAA520;
+            text-decoration: none;
+            transition: color 0.3s ease; 
+        }
+        /* Hover effect for all navigation links */
+        nav a:hover {
+            color: #ffffff; /* Changes to white on hover for high contrast */
+        }
+        .main-content {
+            padding: 20px 0;
+        }
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid #A65A38; /* Whiskey brown border */
+        }
+        h2 {
+            color: #DAA520;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .cigar-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+        .cigar-item {
+            background: #2c2c2c; /* Retained a dark gray for items */
+            padding: 20px;
+            border: 1px solid #A65A38; /* Whiskey brown border for items */
+        }
+        /* New styles for Team section grid layout */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            text-align: center;
+        }
+        .team-item {
+            background: #2c2c2c;
+            padding: 15px;
+            border: 1px solid #DAA520;
+        }
+        .team-item h3 {
+            margin-bottom: 5px;
+        }
+        .team-item p {
+            font-size: 0.9em;
+        }
+
+        footer {
+            background: #000;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            color: #aaa;
+            font-size: 14px;
+        }
+        /* Style for the external link in the about section */
+        #about a {
+            color: #DAA520;
+            text-decoration: underline;
+            transition: color 0.3s ease;
+        }
+        #about a:hover {
+             color: #ffffff; 
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <div class="logo-container">
+            <!-- REPLACE THE SRC BELOW WITH YOUR IMAGE URL OR BASE64 DATA URI -->
+            <img src="Screenshot 2025-12-03 115507.png" alt="Thoroughbred Cigars Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#cigars">Our Cigars</a></li>
+                <li><a href="#value">Value Prop</a></li>
+                <li><a href="#supply-chain">Supply Chain</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container main-content">
+        <!-- About Us Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p><strong>Thoroughbred Cigars</strong> Is dedicated to the legacy of elegance, tradition, and the spirit of horse racing. We craft premium cigars inspired by champions.</p>
+            
+            <h3>Our Mission & Vision</h3>
+            <p><strong>Vision:</strong> Building a legacy that bridges the rich history of thoroughbred tradition with modern sophistication.</p>
+            <p><strong>Mission:</strong> “To craft cigars that embody the spirit of Kentucky heritage—rich, bold, and refined—by blending tradition, craftsmanship, and innovation to deliver an unforgettable smoking experience.”</p>
+            
+            <h3>Brand Identity</h3>
+            <p>Thoroughbred Cigars embodies the spirit of Kentucky heritage — rich craftsmanship, refined tradition, and the timeless elegance of the Bluegrass. Our brand uses deep brown, bourbon amber, and gold accents with imagery of horses, barns, leather, and bourbon barrels to evoke a rich, nostalgic tone rooted in history.</p>
+            
+            <!-- HYPERLINK UPDATED HERE -->
+            <p style="margin-top: 20px;">
+                <a href="https://luky-my.sharepoint.com/:p:/r/personal/gmha252_uky_edu/_layouts/15/Doc.aspx?sourcedoc=%7BDBD7ED26-C6A5-4BCA-BBA3-440E965BF849%7D&file=Final%20Presentation.pptx&fromShare=true&action=edit&mobileredirect=true" target="_blank" rel="noopener noreferrer">View the full presentation notes for this project (requires access)</a>
+            </p>
+        </section>
+
+        <!-- Our Cigars Section -->
+        <section id="cigars">
+            <h2>Our Cigars</h2>
+            <p style="text-align: center; margin-bottom: 30px;">We offer cigars in three sizes: Robusto (5 x 50), Churchill (7 x 48), and Torpedo (6.5 x 52), each available in four unique, Kentucky-inspired flavors.</p>
+            
+            <div class="cigar-grid">
+                
+                <!-- Bourbon Cherry -->
+                <div class="cigar-item">
+                    <h3>Bourbon Cherry</h3>
+                    <p><strong>Profile:</strong> Sweet with a subtle cherry accent.</p>
+                    <p><strong>Base:</strong> Mild-to-medium tobacco blend that allows the flavor infusion to shine.</p>
+                    <p><strong>Wrapper Sourcing:</strong> Nicarguan Jalapa leaf for its naturally sweet, floral aromatics.</p>
+                </div>
+
+                <!-- Southern Pecan -->
+                <div class="cigar-item">
+                    <h3>Southern Pecan</h3>
+                    <p><strong>Profile:</strong> Nutty with warm undertones to feel more "southern".</p>
+                    <p><strong>Base:</strong> Medium bodied blend with natural nutty undertones.</p>
+                </div>
+
+                <!-- Mint Julep -->
+                <div class="cigar-item">
+                    <h3>Mint Julep</h3>
+                    <p><strong>Profile:</strong> Floral & Sweet, with natural, cooling mint essence.</p>
+                    <p><strong>Base:</strong> A fresh, sweet, and aromatic foundation.</p>
+                    <p><strong>Availability:</strong> Seasonal spike (Spring/Summer), critical during Derby/Keeneland events.</p>
+                </div>
+
+                <!-- Bourbon Barrel -->
+                <div class="cigar-item">
+                    <h3>Bourbon Barrel</h3>
+                    <p><strong>Profile:</strong> Charred Oak (smokey), warm and dense aroma.</p>
+                    <p><strong>Base:</strong> Deep, oaky, medium-to-full bodied blend.</p>
+                    <p><strong>Sourcing:</strong> Uses real barrel/oak components from Kentucky cooperages.</p>
+                </div>
+
+            </div>
+            
+            <p style="text-align: center; margin-top: 20px;"><em>Our target market is local to Kentucky, focusing on horse races (Keeneland, Derby) and country clubs.</em></p>
+        </section>
+
+        <!-- Value Proposition Section (New) -->
+        <section id="value">
+            <h2>Our Value Proposition</h2>
+            <div class="cigar-grid">
+                <div class="cigar-item">
+                    <h3>Effectiveness</h3>
+                    <ul>
+                        <li>Consistent Quality Control</li>
+                        <li>High delivery reliability</li>
+                    </ul>
+                </div>
+                <div class="cigar-item">
+                    <h3>Efficiency</h3>
+                    <ul>
+                        <li>Local tobacco leaf sourcing</li>
+                        <li>Optimized batch sizes (freshness)</li>
+                    </ul>
+                </div>
+                <div class="cigar-item">
+                    <h3>Relevancy</h3>
+                    <ul>
+                        <li>Kentucky-themed flavors</li>
+                        <li>High-end/luxury branding</li>
+                    </ul>
+                </div>
+                <div class="cigar-item">
+                    <h3>Sustainability</h3>
+                    <ul>
+                        <li>Ethical global sourcing</li>
+                        <li>Waste reduction strategies</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Supply Chain & Sourcing Section (New) -->
+        <section id="supply-chain">
+            <h2>Supply Chain & Sourcing Summary</h2>
+            <p>Our operation balances local efficiency with high-quality global sourcing.</p>
+            
+            <h3>Key Sourcing Points</h3>
+            <ul>
+                <li><strong>Local Tobacco Leaf:</strong> Sourced from Farmers Tobacco Co. of Cynthiana, Kentucky.</li>
+                <li><strong>Binder:</strong> Acquired from the Dominican Republic (Santiago region).</li>
+                <li><strong>Wrappers:</strong> Sourced from Nicaragua (Estelí and Jalapa farms).</li>
+                <li><strong>Flavoring:</strong> Flavoring agents from various US suppliers (Amoretti, LorAnn, etc.) are infused into the cigars in a sealed environment or sprayed during production.</li>
+                <li><strong>Manufacturing:</strong> All final manufacturing and aging occurs in our Lexington, KY plant.</li>
+            </ul>
+        </section>
+
+         <!-- Our Team Section (Updated with full list) -->
+         <section id="team">
+            <h2>Our Team (Organizational Chart)</h2>
+            <div class="team-grid">
+                <div class="team-item">
+                    <h3>Gaby Hayes</h3>
+                    <p>Chief Supply Chain Officer</p>
+                </div>
+                <div class="team-item">
+                    <h3>Harriet Kinuthia</h3>
+                    <p>Chief Marketing Officer</p>
+                </div>
+                <div class="team-item">
+                    <h3>Clayton Cox</h3>
+                    <p>VP Global Operations and Compliance</p>
+                </div>
+                <div class="team-item">
+                    <h3>Kevin Heflin</h3>
+                    <p>VP Integrated Operations Planning</p>
+                </div>
+                 <div class="team-item">
+                    <h3>Christabel Ndwiga</h3>
+                    <p>VP Procurement and Manufacturing</p>
+                </div>
+                <div class="team-item">
+                    <h3>Melissa Masakure</h3>
+                    <p>Director of Strategic Partnerships</p>
+                </div>
+                <div class="team-item">
+                    <h3>Franco Ventura</h3>
+                    <p>Director of Supply Chain Performance and Analytics</p>
+                </div>
+                <div class="team-item">
+                    <h3>Logan Clark</h3>
+                    <p>Director of Transportation & Logistics</p>
+                </div>
+                <div class="team-item">
+                    <h3>Azariah Abdullah-Shabazz</h3>
+                    <p>Director of Distribution & Fulfillment</p>
+                </div>
+                <div class="team-item">
+                    <h3>Glen Butler</h3>
+                    <p>Inventory Control Manager</p>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <p>Contact us at info@thoroughbredcigars.fake</p>
+            <p>&copy; 2025 Thoroughbred Cigars</p>
+        </div>
+    </footer>
+
+</body>
+</html>
